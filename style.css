@@ -2,15 +2,13 @@
 .container{
     width: 1300px;
     margin: 0 auto;
+    background-color: #2B2B2B
 
 }
 .clearfix{
     clear: both;
 }
-body{
-    background-color: #2B2B2B
-    ;
-}
+b
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +28,7 @@ nav{
 .logo{
     color:#fff;
     letter-spacing: 3px;
-    font-size: ;
+    font-size: 30px;
 }
 .nav-links{
     display: flex;
@@ -95,7 +93,7 @@ nav{
         transition: transform 0.5s ease-in;
       }
       .nav-links li{
-        opacity: 0;
+       
       }
       .burger{
         display: block;
@@ -116,8 +114,14 @@ nav{
         display: flex;
         margin-top: 30px;
         line-height: 30px;
+        position: relative;
+        right: -85px;
     }
-    .text-section h1{
+    /* .text-section >div{
+        width: 70%;
+        float: left;
+ */
+   .text-section h1{
         color: #fff;
         display: block;
     }
@@ -133,17 +137,171 @@ nav{
     .text-section span{
         color: #fff;
     }
-    .text-7{
+    .text-long{
         color: #fff;
         display:block;
-        position: relative;
-        margin-top: 140px;
-        left: -176px;
-        line-height: 40px;
-        
-
-    }
        
+    }
+   .text_section-bottom{
+        background-color: #494747;
+        border: none;
+        position: relative;
+        top: 10px;
+        margin: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 9px 22px;
+        border-radius: 20px;
+       
+    }
+    .text_number-section{
+        display: flex;
+       
+        
+    }
+    .text_section-right{
+        position: relative;
+        right: -390px;
+       border-radius: 12px;
+       }
+    .text_number-section{
+        position: relative;
+        top: 30px;
+        font-size: 35px;
+        letter-spacing: 10px;
+       }
+       .text_section-rightbottom{
+        position: relative;
+        top: 70px;
+        font-size: 18px;
+         color:#fff;
+        background-color:#A259FF ;
+        padding: 16px 70px;
+        border-radius: 15px;
+
+       }
+       .div{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 30px;
+        right: 5px;
+       }
+       /* first_section-lastpart */
+        .cards{
+        position: relative;
+        top: 50px;
+        right: -85px;
+        max-width: 400px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        font-family: sans-serif;
+       
+         }
+       .card{
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1 );
+      
+       }
+       .card__image{
+        width: 100%;
+        display: block;
+       
+        
+        }
+       .card__content{
+         background-color:#3b3b3b;
+         margin-top: -25px
+        ;
+        }
+       .card__content h3{
+        position: relative;
+        right: -20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 22px;
+        font-weight: 100;
+        line-height: 30.8px;
+       }
+       .card__content h6{
+        color: #fff;
+        position: relative;
+        top: -22px;
+        right: -50px;
+        font-size: 14px;
+       }
+       .card__content img{
+        position: relative;
+        right: -20px;
+       }
+       .card_info{
+        top: 12px;
+        position: relative;
+         padding: 15px;
+        display: flex;
+        justify-content: space-around;
+        background-color:#3b3b3b;
+       }
+       .card_info h5{
+        width:114px ;
+        font-weight: 400;
+        line-height: 13.2px;
+        font-size: 12px;
+        color:#858584;
+       }
+       .card_info h4{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+        color: #fff;
+       }
+       /* section_foooter */
+       .footer_section{
+        background-color: #3b3b3b;
+        position: relative;
+        top: 80px;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap: 100px;
+        padding-bottom: 70px;
+        padding: 30px;
+       }
+       .first_content-part{
+        position: relative;
+        right: -87px;
+        top: -15px;
+       } 
+       .footer_section span{
+        color: #fff;
+       }
+       .footer_section p{
+        color: #858584; }
+       .first_content-part h3{
+        position: relative;
+        top: -40px;
+        color: #858584;
+        font-family: 'Times New Roman', Times, serif;
+       }
+       .footer_icons{
+        position: relative;
+        top: -50px;
+        
+        size: 17px;
+        font-size: 2px;
+       }
+       .footer_section input{
+        padding: 10px 10px;
+        border: none;
+        border-radius: 15px;
+        color: #494747;
+        text-transform: capitalize;
+
+       }
+     
+       
+       
+        
    
         
     
