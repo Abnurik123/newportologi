@@ -305,18 +305,80 @@ nav{
         font-size: 2px;
        }
        .footer_section input{
-        padding: 5px 8px;
+        padding: 8px 18px;
         border: none;
-        border-radius: 10px;
+        border-radius: 15px;
         color: #494747;
         text-transform: capitalize;
 
        }
+       .footer_section button{
+        position: relative;
+        right: 36px;
+        padding: 9px 13px;
+        border-radius: 15px;
+        background-color:#a259ff ;
+        border: none;
+        color: #fff;
+       }
        /* second_sections' Page */
        .second_page-section{
-        padding: 200px 55px;
-        
+        padding: 200px 0px;
+        }
+       nav{
+        background-color:#3b3b3b;
        }
+       .after_nav-section{
+        position: relative;
+        top: 20px;
+        right: -95px;
+
+       }
+       .after_nav-section h1{
+        color: #fff;
+        font-size: 51px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+       }
+       .depended{
+        color:#eee;
+        font-size: 22px;
+        font-weight: 400;
+        position: relative;
+        top: -20px;
+      }
+      .after_nav-section-input{
+        padding: 10px 250px;
+        border-radius:20px;
+        border: none;
+        background-color: #3b3b3b;
+        }
+        .after_nav-section-img{
+         position: relative;
+        right: 40px;
+         bottom: -7px;
+          }
+      .after_nav_main-section{
+        position: relative;
+        top: 60px;
+          }
+      .after_nav_nav{
+        display:flex;
+        justify-content: space-around;
+     }  
+     .after_nav_nav span{
+        color: #858584;
+        font-size: 22px;
+        font-weight: 600;
+     }
+     .after_nav_nav button{
+        padding: 7px 8px;
+        border-radius: 50px;
+        color: #fff;
+        background-color: #494747;
+
+     }
+         
        
        
      
