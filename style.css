@@ -30,6 +30,17 @@ nav{
     letter-spacing: 3px;
     font-size: 30px;
 }
+.logo img{
+    position: relative;
+    top: 47px;
+    right: 30px;
+}
+.logo h4{
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+    right: -20px;
+}
 .nav-links{
     display: flex;
     justify-content:space-around;
@@ -190,7 +201,7 @@ nav{
        /* first_section-lastpart */
         .cards{
         position: relative;
-        top: 50px;
+        top: 40px;
         right: -85px;
         max-width: 400px;
         display: grid;
@@ -211,34 +222,37 @@ nav{
         }
        .card__content{
          background-color:#3b3b3b;
-         margin-top: -25px
+         margin-top: -45px
         ;
         }
        .card__content h3{
+        top: 45px;
         position: relative;
         right: -20px;
         font-family: 'Times New Roman', Times, serif;
         color: #fff;
         text-transform: capitalize;
         font-size: 22px;
-        font-weight: 100;
+        font-weight: 600;
         line-height: 30.8px;
        }
        .card__content h6{
-        color: #fff;
+        color:gray;
         position: relative;
-        top: -22px;
-        right: -50px;
+        top: -15px;
+        right: -55px;
         font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
        }
        .card__content img{
         position: relative;
         right: -20px;
+        top: 40px;
        }
        .card_info{
-        top: 12px;
+        top: -18px;
         position: relative;
-         padding: 15px;
+         padding: -10px;
         display: flex;
         justify-content: space-around;
         background-color:#3b3b3b;
@@ -291,13 +305,20 @@ nav{
         font-size: 2px;
        }
        .footer_section input{
-        padding: 10px 10px;
+        padding: 5px 8px;
         border: none;
-        border-radius: 15px;
+        border-radius: 10px;
         color: #494747;
         text-transform: capitalize;
 
        }
+       /* second_sections' Page */
+       .second_page-section{
+        padding: 200px 55px;
+        
+       }
+       
+       
      
        
        
